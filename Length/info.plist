@@ -135,7 +135,18 @@ HERE
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Usage: len &lt;text&gt;
+
+e.g. len Hello, world!
+
+By default, you’ll see the number of Unicode code points contained in the text. This may not match the number of glyphs since some emoji are composed of multiple characters internally.
+
+Hold option to see the number of bytes the text uses in a UTF-8 encoding.
+
+Hold option+shift to see the number of code units the text uses in UTF-16 (note: this is half the number of bytes UTF-16 uses). (also: I’m not sure whether this is the correct terminology)
+
+LICENSE: MIT
+https://github.com/j-f1/alfred-workflows/blob/main/LICENSE.md</string>
 	<key>uidata</key>
 	<dict>
 		<key>608318AB-B79F-4787-9D1E-44A5FDB3CAF8</key>

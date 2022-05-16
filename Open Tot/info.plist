@@ -35,27 +35,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>count</key>
-				<integer>1</integer>
-				<key>keychar</key>
-				<string>t</string>
-				<key>keycode</key>
-				<integer>-1</integer>
-				<key>keymod</key>
-				<integer>1835008</integer>
-				<key>overridewithargument</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.dispatchkeycombo</string>
-			<key>uid</key>
-			<string>3E9ADA82-2069-4EC8-A14C-260B68306152</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -74,26 +53,58 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>count</key>
+				<integer>1</integer>
+				<key>keychar</key>
+				<string>t</string>
+				<key>keycode</key>
+				<integer>-1</integer>
+				<key>keymod</key>
+				<integer>1835008</integer>
+				<key>overridewithargument</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<key>uid</key>
+			<string>3E9ADA82-2069-4EC8-A14C-260B68306152</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Simply type “tot” and hit return to open Tot. By default, activating the Tot app from within Alfred will not cause its popover to appear when Tot is configured to be a menu bar app.
+
+In order for this to work, you’ll need to manually configure a keyboard shortcut in Tot’s settings. By default, this workflow expects you to use ⌃⌥⌘T (which is a pain to manually type but the goal is to use Alfred instead, right?).
+
+Note that you may need to manually scroll to the bottom of the suggestions list and select this shortcut for it to appear at the top for you in the future. Consider doing this right now for `tot`, `to`, and `t`.
+
+LICENSE: MIT
+https://github.com/j-f1/alfred-workflows/blob/main/LICENSE.md</string>
 	<key>uidata</key>
 	<dict>
 		<key>3E9ADA82-2069-4EC8-A14C-260B68306152</key>
 		<dict>
 			<key>xpos</key>
-			<integer>400</integer>
+			<integer>455</integer>
 			<key>ypos</key>
-			<integer>205</integer>
+			<integer>180</integer>
 		</dict>
 		<key>808FB2B6-168D-401C-907C-138FF4F2498C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>165</integer>
+			<integer>220</integer>
 			<key>ypos</key>
-			<integer>205</integer>
+			<integer>180</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.0.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/j-f1/alfred-workflows</string>
 </dict>
