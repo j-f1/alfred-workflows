@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.jedfox.length</string>
+	<key>category</key>
+	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>608318AB-B79F-4787-9D1E-44A5FDB3CAF8</key>
@@ -21,7 +23,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>Jed Fox</string>
 	<key>description</key>
 	<string>Measures the length of the text passed as an argument</string>
 	<key>disabled</key>
